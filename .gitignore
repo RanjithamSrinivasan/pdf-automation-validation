@@ -1,0 +1,116 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@RanjithamSrinivasan 
+red6
+/
+pdfcompare
+Public
+Code
+Issues
+4
+Pull requests
+1
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+pdfcompare/.gitignore
+
+Malte Finsterwalder Initial source code
+Latest commit e2cb8c9 on Nov 24, 2016
+ History
+ 0 contributors
+125 lines (96 sloc)  1.7 KB
+   
+## Additional for Innovas IAF
+ejbModule
+.classpath
+.settings
+.project
+*.*~
+*.*.orig
+db/
+html_out/
+# Wir checken auch generierte Artefakte ein.
+#**/gen/**/*
+ktest-errors.tsl
+ktestlog*
+~
+*.log
+
+# Created by http://www.gitignore.io
+
+### Java ###
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+### vim ###
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+### Vagrant ###
+.vagrant/
+
+
+### Eclipse ###
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+# *.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+
